@@ -1,0 +1,62 @@
+                                body {
+                                    background-color: #07254f;
+                                    background-image: url("immag.jpg");
+                                    background-size: cover;
+                                    background-repeat: no-repeat;
+                                }
+                                
+                                h2 {
+                                    color: rgb(255, 255, 255);
+                                    text-align: left;
+                                    font-family: unset;
+                                }
+                                
+                                h3 {
+                                    color: rgb(212, 210, 210);
+                                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                }
+                                
+                                nav {
+                                    color: aliceblue;
+                                }
+                                
+                                form {
+                                    color: azure;
+                                }
+                                
+                                a {
+                                    text-decoration: none;
+                                }
+                                
+                                nav ul {
+                                    float: right;
+                                    margin-right: 20px;
+                                }
+                                
+                                nav ul li {
+                                    display: inline-block;
+                                    line-height: 80px;
+                                    margin: 0 20px;
+                                }
+                                
+                                nav ul li a {
+                                    color: white;
+                                    font-size: 17px;
+                                    padding: 7px 13;
+                                    border-radius: 3px;
+                                    text-transform: uppercase;
+                                }
+                                
+                                a.active,
+                                a:hover {
+                                    background-color: rgba(144, 255, 255, 0.293);
+                                    transition: .5s;
+                                }
+                                
+                                label.logo {
+                                    color: white;
+                                    font-size: 35px;
+                                    line-height: 80px;
+                                    padding: 0 100px;
+                                    font-weight: bold;
+                                }
